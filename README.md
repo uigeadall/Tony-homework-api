@@ -91,3 +91,21 @@ Expected Result:
 Status code: 404
 Response body contains an error message indicating the device does not exist
 
+
+
+Test Case 6: Delete a device by ID
+
+Test Case ID: TC6
+Title: Verify deleting a device by ID
+Pre-conditions: API server is running, and a device with id TEST2 exists
+Test Steps:
+Send a DELETE request to /inventory/devices/TEST2
+Verify the response status is 200 OK
+Verify the device is no longer retrievable using GET /inventory/devices/TEST2
+Expected Result:
+Status code: 200
+Device with id TEST2 no longer exists in the system
+
+
+
+
