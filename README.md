@@ -1,4 +1,6 @@
 # Tony-homework-api
+Test Case 1: Get all devices
+
 Test Case ID: TC1
 Title: Verify all devices are listed
 Pre-conditions: API server is running and have devices
